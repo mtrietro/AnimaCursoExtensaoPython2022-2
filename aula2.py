@@ -2,6 +2,7 @@
 nome = input("Digite seu nome: ")
 idade = int(input("E sua idade: "))
 genero = input("Informe seu gênero (F, M ou O): ")
+nota = float(input("Digite sua nota: "))
 dobro = (idade * 2)
 
 # exibir variáveis
@@ -17,3 +18,11 @@ else:
   print("Você é menor de idade.")
 
 
+
+
+if(nota == 10):
+  print("Parabéns!")
+elif(nota >= 7 and nota < 10):
+    print("Nota acima da média.")
+else:
+  print("Nota abaixo da média...")
